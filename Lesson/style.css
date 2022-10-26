@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background: url(https://w3programmers.com/bangla/wp-content/uploads/2018/12/css-backgrounds.jpg)
+}
+
+.container {
+    width: 969.33px;
+    min-height: 759.2px;
+    border: 5px solid white;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: blueviolet;
+}
+
+.header {display:flex;
+    height: 200px;
+}
+
+
+
+.title-block {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid purple;
+    display: flex;
+    width: 80%;
+    height: 100%;
+    font-size: 30px;
+    background: url(https://images.squarespace-cdn.com/content/v1/53994626e4b0a23d70d8ab6a/1568177746034-2AEZVIDXF76GNTC3LTJI/Bas+van+Est_VIVIDAMD19_041.jpg?format=500w) no-repeat center center / cover;
+    color: goldenrod;
+}
+
+
+.title-block::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+
+.title {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.homelogo {
+    display: flex;
+    height: 100%;
+    width: 30%;
+    border: 2px solid blue;
+    background: url(https://m.foolcdn.com/media/dubs/original_images/original_imageshttpsg.foolcdn.comeditorialimages608275comparison-of-bull-v.png) no-repeat center center / cover;
+    margin-right: 10px;
+}
+
+.navigation ul {
+    display: flex;
+    background-color: rgb(165, 165, 165);
+    margin: 8px 0;
+
+}
+
+.navigation li {
+
+}
+
+
+.navigation li a {
+    display: flex;
+    padding: 16px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-right: 1px solid rgb(105, 105, 105);
+    transition: background .5s ease;
+}
+
+.navigation li a:hover {
+    background: rgb(54, 53, 53);
+}
